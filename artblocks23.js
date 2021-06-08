@@ -3,18 +3,6 @@ let tokenData = {"hash":"0x11ac128f8b54949c12d04102cfc01960fc496813cbc3495bf77ae
 let hash = tokenData.hash;
 */
 
-//SIMDILIK bu 
-function random_hash() {
-    let chars = "0123456789abcdef";
-    let result = '0x';
-    for (let i = 64; i > 0; --i) {
-        result += chars[Math.floor(Math.random() * chars.length)];
-    }
-    return result;
-}
-
-//tokenData = {"hash": "0x11ac128f8b54949c12d04102cfc01960fc496813cbc3495bf77aeed738579738"};
-tokenData = {"hash": random_hash()};
 let seed = parseInt(tokenData.hash.slice(0, 16), 16);
 let R = new Random(tokenData);
 let Rseed = new Random(seed);
@@ -22,8 +10,8 @@ let Rseed = new Random(seed);
 let colors = "EEE77E-F0DA45-FBB040-B86228-D16562-D15054-A51E22-F1B7C9-E17FA0-B54365-670917-A789A6-603E6F-2C1D52-241537-67B8BE-13999F-0B6976-004554-8FD0BA-21B18A-087561-024235".split("-").map(a => `#${a}`);
 let colors1 = "EAB94E-DD683B-D53C52-B5347E-603387-2F69AC-449F9C-7AB551".split("-").map(a => `#${a}`);
 let colors2 = "F61067-5E239D-00F0B5-6DECAF-F4F4ED-FAA300-E57C04-FF6201".split("-").map(a => `#${a}`);
-let colors3 = "8FD0BA-21B18A-087561-024235".split("-").map(a => `#${a}`); //yesil
-let colors4 = "F63E02-FAA300-E57C04-FF6201".split("-").map(a => `#${a}`); //turunculu
+let colors3 = "8FD0BA-21B18A-087561-024235".split("-").map(a => `#${a}`);
+let colors4 = "F63E02-FAA300-E57C04-FF6201".split("-").map(a => `#${a}`);
 let colors5 = "E6D957-D8B07C-BA7B89-7A4E91-594D91-AC323C-CE5545-CF683A-DB9638-E2AD54".split("-").map(a => `#${a}`);
 let colors6 = "F7F8F8-F4D498-EDA98E-E27C81-AA608C-724B84-543D6D-374A8A-3A6E96-4C97B0-5DBBC3-96D4C5-CAE7D4".split("-").map(a => `#${a}`);
 
@@ -80,7 +68,7 @@ var noiseF;
 var f = 0.0;
 var colorState;
 
-// Constants
+
 const Y_AXIS = 1;
 const X_AXIS = 2;
 let b1, b2, c1, c2;
@@ -103,11 +91,11 @@ function setup() {
     noiseImg.noStroke();
 
     noiseImg.fill(0, 150);
-    //noiseImg.fill(255, 209, 102); //SARI
+
 
     for (let i = 0; i < WIDTH * HEIGHT * 0.3; i++) {
-        let x = Rseed.random_between(0, WIDTH);   //BUNLAR SIKINTI
-        let y = Rseed.random_between(0, HEIGHT); //BUNLAR SIKINTI
+        let x = Rseed.random_between(0, WIDTH);
+        let y = Rseed.random_between(0, HEIGHT);
         let d = noise(0.01 * x, 0.01 * y) * 0.5 + 1;
         noiseImg.ellipse(x, y, d / 1.75, d / 1.75);
     }
@@ -119,8 +107,8 @@ function setup() {
     bg = createGraphics(WIDTH, HEIGHT);
     bg.noStroke();
     for (let i = 0; i < 300000; i++) {
-        let x = Rseed.random_between(0, WIDTH); //BUNLAR SIKINTI
-        let y = Rseed.random_between(0, HEIGHT); //BUNLAR SIKINTI
+        let x = Rseed.random_between(0, WIDTH);
+        let y = Rseed.random_between(0, HEIGHT);
         let s = noise(x * 0.01, y * 0.01) * 2;
         bg.fill(255, 30);
         bg.rect(x, y, s, s);
@@ -139,48 +127,48 @@ function setup() {
     noiseF = R.random_between(0, 100);
     colorState = 0;
 
-    const SEA = "#ffd166"; //SARI
+    const SEA = "#ffd166";
 
 
     addRobot(WIDTH / 2, HEIGHT / 2);
 
     sunColor = color(Rseed.random_choice(colorYellow));
     mountainColor = color(Rseed.random_choice(colorBlue));
-    //  c1 = hexToRgb2(mountainColor);
-    c1 = color(29, 90, 231); //mavi
-    c2 = color(255, 209, 102); //SARI
-    c3 = color(128, 255, 219); //yesil
 
-    // c1 = hexToRgb(mountainColor);
+    c1 = color(29, 90, 231);
+    c2 = color(255, 209, 102);
+    c3 = color(128, 255, 219);
+
+
 }
 
 
 function draw() {
     randomSeed(seedNum);
-    background(255, 209, 102); //SARI
+    background(255, 209, 102);
     background(0);
     noStroke();
 
 
-    //AMK GUNESI
+
     sol(sunColor);
 
 
-    //AMK BULUTLARI
+
     push();
-    fill(BGCOL);   //CURSED BLESSED NO USE
+    fill(BGCOL);
     cloud(-10, HEIGHT / 2 - HEIGHT * 0.1, HEIGHT * 0.2);
-    //cloud(-R.random_between(0,10),HEIGHT /2 - HEIGHT * 0.1, HEIGHT * 0.2);
+
     image(noiseImg, 0, -HEIGHT * 0.05);
     image(noiseImg, 0, -HEIGHT * 0.1);
     cloud(0, HEIGHT / 2, HEIGHT * 0.225);
     image(noiseImg, 0, 0);
     cloud(-10, HEIGHT / 2 + HEIGHT * 0.1, HEIGHT * 0.25);
-    //cloud(-R.random_between(0,10),HEIGHT /2 + HEIGHT * 0.1,HEIGHT * 0.25);
+
     pop();
 
 
-    //AMK PLANETI
+
     push();
     scale(0.55);
     rotate(sin(frameCount / 50) / 8);
@@ -188,18 +176,18 @@ function draw() {
     pop();
 
 
-    //AMK DENIZI
+
     push();
     fill(mountainColor);
 
-    //DENIZDE GRADIENT OLSUN MU CANERLERE DE DANIS BENCE OLSUN
+
     setGradient(0, HEIGHT / 1.75, WIDTH, HEIGHT / 2, c1, c3, Y_AXIS);
 
     f += 0.015;
     var waveH = map(0, 0, WIDTH, 100, 500);
     for (var h = HEIGHT / 1.75; h < HEIGHT; h += 4) {
         beginShape();
-        stroke(128, 255, 219, 90); //acik turkuaz
+        stroke(128, 255, 219, 90);
         fill(128, 255, 219, 30);
         var x = 0;
         var y = h + waveH * noise(noiseX, noiseY + h * 0.01, noiseF + f);
@@ -217,19 +205,19 @@ function draw() {
     pop();
 
 
-    //AMK ROBOTU
+
     robots.forEach(robot => {
         robot.update();
         robot.draw();
 
-        //AMK BOTU
+
         boat(WIDTH / 2, HEIGHT / 2);
 
     });
 
 
     push();
-    blendMode(MULTIPLY);//bunla bi oyna
+    blendMode(MULTIPLY);
     image(overAllTexture, 0, 0);
     pop();
 
@@ -242,11 +230,11 @@ function sol(gunesColor) {
     push();
     fill(gunesColor);
     ellipse(WIDTH / 1.25, HEIGHT / 4, HEIGHT / 5, HEIGHT / 5);
-    //  fill(random(colorYellow),70);
+
     gunesColor.setAlpha(70);
     fill((gunesColor));
     ellipse(WIDTH / 1.25, HEIGHT / 4, R.random_between(HEIGHT / 5 + 30, HEIGHT / 5 + 50) * sin(frameCount / 100), R.random_between(HEIGHT / 5 + 30, HEIGHT / 5 + 50) * sin(frameCount / 100));
-    //  fill(223,215,83,70);
+
     gunesColor.setAlpha(70);
     fill((gunesColor));
     ellipse(WIDTH / 1.25, HEIGHT / 4, R.random_between(HEIGHT / 5 + 60, HEIGHT / 5 + 80) * sin(-frameCount / 100), R.random_between(HEIGHT / 5 + 60, HEIGHT / 5 + 80) * sin(-frameCount / 100));
