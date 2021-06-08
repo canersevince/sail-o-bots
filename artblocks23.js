@@ -7,6 +7,7 @@ let seed = parseInt(tokenData.hash.slice(0, 16), 16);
 let R = new Random(tokenData);
 let Rseed = new Random(seed);
 
+
 let colors = "EEE77E-F0DA45-FBB040-B86228-D16562-D15054-A51E22-F1B7C9-E17FA0-B54365-670917-A789A6-603E6F-2C1D52-241537-67B8BE-13999F-0B6976-004554-8FD0BA-21B18A-087561-024235".split("-").map(a => `#${a}`);
 let colors1 = "EAB94E-DD683B-D53C52-B5347E-603387-2F69AC-449F9C-7AB551".split("-").map(a => `#${a}`);
 let colors2 = "F61067-5E239D-00F0B5-6DECAF-F4F4ED-FAA300-E57C04-FF6201".split("-").map(a => `#${a}`);
@@ -300,17 +301,4 @@ function boat(x, y) {
     triangle(392, 431, 402, 508, 362, 493);
     triangle(402, 508, 467, 534, 369, 534);
     pop();
-}
-
-
-function hexToRgb(hex) {
-    hex = hex.toString().replace('#', '');
-
-    var bigint = parseInt(hex, 16);
-
-    var r = (bigint >> 16) & 255;
-    var g = (bigint >> 8) & 255;
-    var b = bigint & 255;
-
-    return color(r, g, b);
 }
