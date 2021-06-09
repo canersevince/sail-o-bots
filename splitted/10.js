@@ -1,5 +1,4 @@
 
-
 let bg;
 let seedNum;
 let noiseImg;
@@ -14,20 +13,19 @@ const Y_AXIS = 1;
 const X_AXIS = 2;
 let c1, c2, c3;
 var DEFAULT_SIZE = 1000;
-var WIDTH = window.innerWidth;
-var HEIGHT = window.innerHeight;
 var DIM = Math.min(WIDTH, HEIGHT);
 var M = DIM / DEFAULT_SIZE;
-let ellipse1$ = HEIGHT / 5 + 30
-let ellipse2$ = HEIGHT / 5 + 60
+let ellipse1$ = HEIGHT / 5 + HEIGHT / 30
+let ellipse2$ = HEIGHT / 5 + HEIGHT / 15
 let mouth = Rseed.random_int(0, 3)
 let mouthVector = Rseed.random_int(0, 3)
 let mouthSvg = Rseed.random_int(0, 9)
 let glassType = Rseed.random_int(0, 3)
 let glassSVG = Rseed.random_int(0, 17)
 let glassVector = Rseed.random_int(0, 1)
-let features  = getMetadata()
+let features = getMetadata()
 window.features = features
+
 function setup() {
     createCanvas(WIDTH, HEIGHT);
     rect(100 * M, 500 * M, 50 * M, 50 * M);
@@ -39,10 +37,9 @@ function setup() {
 
     noiseImg.fill(0, 150);
 
-
     for (let i = 0; i < WIDTH * HEIGHT * 0.3; i++) {
-        let x = Rseed.random_between(0, WIDTH);
-        let y = Rseed.random_between(0, HEIGHT);
+        let x = WIDTH/3;
+        let y = HEIGHT/3;
         let d = noise(0.01 * x, 0.01 * y) * 0.5 + 1;
         noiseImg.ellipse(x, y, d / 1.75, d / 1.75);
     }
@@ -54,8 +51,8 @@ function setup() {
     bg = createGraphics(WIDTH, HEIGHT);
     bg.noStroke();
     for (let i = 0; i < 300000; i++) {
-        let x = Rseed.random_between(0, WIDTH);
-        let y = Rseed.random_between(0, HEIGHT);
+        let x = WIDTH / 2;
+        let y = HEIGHT / 2;
         let s = noise(x * 0.01, y * 0.01) * 2;
         bg.fill(255, 30);
         bg.rect(x, y, s, s);
@@ -65,9 +62,11 @@ function setup() {
     overAllTexture.loadPixels();
     for (var i = 0; i < WIDTH + 50; i++) {
         for (var o = 0; o < HEIGHT + 50; o++) {
-            overAllTexture.set(i, o, color(100, noise(i / 3, o / 3, i * o / 50) * Rseed.random_choice([0, 50, 100])));
+            overAllTexture.set(i, o, color(100, noise(i / 3, o / 3, i * o / 50) * pitircik));
         }
     }
+
+
     overAllTexture.updatePixels();
     noiseX = Rseed.random_between(0, 100);
     noiseY = Rseed.random_between(0, 100);
@@ -86,7 +85,4 @@ function setup() {
 
 
 }
-
-
-
 

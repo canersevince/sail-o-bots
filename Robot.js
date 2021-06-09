@@ -51,7 +51,7 @@ const allGlasses4 = [
 
 
 const fvckingPinkGlasses = [
-    `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560.61 228.93"><defs><style>.cls-1{fill:#ee3093;}.cls-1,.cls-3{fill-rule:evenodd;}.cls-1,.cls-2{opacity:0.5;}.cls-2{fill:#e1bbd8;}.cls-3{fill:#253258;}</style></defs><g id="katman_2" data-name="katman 2"><g id="Layer_1" data-name="Layer 1"><path class="cls-1" d="M122.37,29.71C154.21-2.13,194.88,3,219.05,25s24.18,65.78,0,109.63c-16.92,32.89-60.43,65.77-96.68,87.69-36.26-21.92-79.76-54.8-96.68-87.69C1.52,90.73,1.52,46.88,25.69,25S90.53-2.13,122.37,29.71Z"/><rect class="cls-2" x="107.35" y="-13.31" width="23.87" height="211.99" transform="translate(-31.53 101.33) rotate(-41.13)"/><rect class="cls-2" x="83.08" y="10.94" width="15.02" height="213.64" transform="translate(-55.1 88.64) rotate(-41.13)"/><path class="cls-3" d="M174.06,0c26.2.32,52.52,14.65,63.57,38.54C252.51,70.69,241,109.4,225.38,138a80.06,80.06,0,0,1-4.19,7.35c-21.91,35.1-57.91,60.4-93.38,82.05-1,.59-4.74,3.77-12.62-1.06C78.9,203.83,42.3,178,21.57,142-2.57,100.13-13.67,44,27.44,14.32,55-5.53,95.07-3.46,122.13,19.71,122.13,19.71,147.44-.16,174.06,0Zm-.85,14.34c-17.15.11-33.58,8.32-45.78,20.46,0,0-6.23,3.46-12.9-2.67C90.16,10,48.83,6.38,25.84,35.25,6.14,60,15.26,100.57,32,131.2a71,71,0,0,0,3.71,6.51c20.19,32.35,53.15,55.42,86.65,76.16,35.41-21.92,72.07-47.56,90.35-82.67C231.47,96.94,241.39,52.14,211.63,28A61.36,61.36,0,0,0,173.21,14.34Z"/><path class="cls-1" d="M438.44,29.71C470.28-2.13,511,3,535.12,25s24.17,65.78,0,109.63c-16.92,32.89-60.43,65.77-96.68,87.69-36.26-21.92-79.77-54.8-96.69-87.69-24.17-43.85-24.17-87.7,0-109.63S406.6-2.13,438.44,29.71Z"/><rect class="cls-2" x="423.41" y="-13.31" width="23.87" height="211.99" transform="translate(46.46 309.21) rotate(-41.13)"/><rect class="cls-2" x="398.25" y="11.27" width="15.02" height="210.88" transform="translate(23.35 295.68) rotate(-41.13)"/><path class="cls-3" d="M490.12,0c26.21.32,52.53,14.65,63.58,38.54,14.88,32.15,3.37,70.86-12.25,99.42a79.57,79.57,0,0,1-4.2,7.35c-21.91,35.1-57.91,60.4-93.37,82.05-1,.59-4.74,3.77-12.63-1.06C395,203.83,358.37,178,337.64,142c-24.14-41.88-35.24-98,5.87-127.69C371-5.53,411.14-3.46,438.2,19.71,438.2,19.71,463.51-.16,490.12,0Zm-.85,14.34c-17.15.11-33.57,8.32-45.78,20.46,0,0-6.22,3.46-12.9-2.67C406.23,10,364.89,6.38,341.9,35.25c-19.69,24.73-10.57,65.32,6.18,95.95a68.62,68.62,0,0,0,3.71,6.51c20.19,32.35,53.15,55.42,86.65,76.16,35.41-21.92,72.07-47.56,90.35-82.67C547.53,96.94,557.46,52.14,527.7,28A61.39,61.39,0,0,0,489.27,14.34Z"/><path class="cls-3" d="M281,35.9a95.24,95.24,0,0,1,41.17,10.39c7,3.49,4.85,18.29-7.53,12.29a79.82,79.82,0,0,0-70.35.84s-3.62,1.38-6.35.07c-5.13-2.48-5.32-10.34,1.82-13.84a94.91,94.91,0,0,1,39.9-9.75Z"/></g></g></svg>`,
+    `<svg id="katman_1" data-name="katman 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 561 855"><defs><style>.cls-1{fill:#ee3093;}.cls-1,.cls-2,.cls-3{fill-rule:evenodd;}.cls-1,.cls-2{opacity:0.5;}.cls-2{fill:#e1bbd8;}.cls-3{fill:#253258;}</style></defs><g id="glass6"><path class="cls-1" d="M122.91,110.92c31.85-118.87,72.52-99.6,96.69-17.76s24.17,245.55,0,409.25C202.68,625.19,159.17,748,122.91,829.8,86.66,748,43.15,625.19,26.23,502.41,2.06,338.71,2.06,175,26.23,93.16S91.07-7.95,122.91,110.92Z"/><polygon class="cls-2" points="59.1 18.63 41.12 77.24 180.56 673.38 198.54 614.76 59.1 18.63"/><polygon class="cls-2" points="26.54 120.78 15.22 157.66 155.74 758.42 167.05 721.54 26.54 120.78"/><path class="cls-3" d="M174.6,0c26.21,1.2,52.52,54.69,63.58,143.87C253.06,263.92,241.54,408.4,225.93,515c-2.23,16-2.75,18.79-4.2,27.45-21.91,131-57.91,225.51-93.38,306.33-1,2.21-4.73,14.06-12.62-4C79.44,761,42.84,664.41,22.12,530.16-2,373.8-13.12,164.15,28,53.45,55.5-20.63,95.61-12.91,122.68,73.57,122.68,73.57,148-.59,174.6,0Zm-.85,53.55c-17.15.39-33.57,31-45.78,76.35,0,0-6.22,12.94-12.9-10C90.7,37.4,49.37,23.81,26.38,131.59,6.69,223.93,15.81,375.46,32.56,489.8c2,14.61,2.44,16.73,3.71,24.32C56.45,634.87,89.42,721,122.91,798.43,158.32,716.58,195,620.86,213.27,489.8c18.74-127.91,28.67-295.16-1.09-385.13C201.43,72.19,187.79,53.54,173.75,53.55Z"/><path class="cls-1" d="M439,110.92c31.84-118.87,72.51-99.6,96.68-17.76s24.18,245.55,0,409.25C518.75,625.19,475.24,748,439,829.8,402.72,748,359.22,625.19,342.3,502.41c-24.17-163.7-24.17-327.4,0-409.25S407.14-7.95,439,110.92Z"/><polygon class="cls-2" points="375.17 18.63 357.19 77.24 496.62 673.38 514.6 614.76 375.17 18.63"/><polygon class="cls-2" points="342.61 120.78 331.29 157.66 470 750.68 481.31 713.8 342.61 120.78"/><path class="cls-3" d="M490.67,0c26.21,1.2,52.52,54.69,63.57,143.87C569.12,263.92,557.61,408.4,542,515c-2.23,16-2.74,18.79-4.19,27.45-21.91,131-57.91,225.51-93.38,306.33-1,2.21-4.74,14.06-12.62-4C395.51,761,358.91,664.41,338.19,530.16c-24.15-156.36-35.25-366,5.86-476.71,27.52-74.08,67.63-66.36,94.7,20.12C438.75,73.57,464.06-.59,490.67,0Zm-.85,53.55c-17.15.39-33.58,31-45.78,76.35,0,0-6.23,12.94-12.9-10-24.37-82.55-65.7-96.14-88.69,11.64-19.7,92.34-10.58,243.87,6.17,358.21,2,14.61,2.45,16.73,3.71,24.32C372.52,634.87,405.48,721,439,798.43c35.41-81.85,72.07-177.57,90.36-308.63,18.74-127.91,28.66-295.16-1.09-385.13C517.5,72.19,503.86,53.54,489.82,53.55Z"/><path class="cls-3" d="M281.53,134c14.31.68,28.24,14.82,41.17,38.8,7,13,4.85,68.28-7.53,45.86-22.05-39.32-48.07-38.86-70.36,3.17,0,0-3.61,5.13-6.34.22-5.14-9.22-5.33-38.59,1.82-51.64,12.49-22.42,26.08-35.86,39.9-36.42Z"/></g></svg>`
 ]
 
 const combinedGlasses = allGlasses.concat(allGlasses2).concat(allGlasses3).concat(allGlasses4).concat(fvckingPinkGlasses)
@@ -73,11 +73,16 @@ class Robot {
             glassType: glassType,
             glassSVG: glassSVG,
             glassVector: glassVector,
-            glassSize: createVector(Rseed.random_between(90, 100), Rseed.random_between(80, 90)),
-            glassSizeCrazy: createVector(Rseed.random_between(100, 120), Rseed.random_between(120, 180)),
-            size: createVector(Rseed.random_between(300, 425), Rseed.random_between(275, 425)),
-            antennaSize: createVector(Rseed.random_between(5 * 4.5, 20 * 4.5), Rseed.random_between(5 * 4.5, 30 * 4.5)),
-            earSize: createVector(Rseed.random_between(10, 30), Rseed.random_between(20, 40)),
+            //    glassSize: createVector(Rseed.random_between(90, 100), Rseed.random_between(80, 90)),
+            glassSize: createVector(Rseed.random_between(WIDTH/10, WIDTH/9), Rseed.random_between(WIDTH/11, WIDTH/10)),
+            //    glassSizeCrazy: createVector(Rseed.random_between(100, 120), Rseed.random_between(120, 180)),
+            glassSizeCrazy: createVector(Rseed.random_between(WIDTH/9, WIDTH/8), Rseed.random_between(WIDTH/6, WIDTH/5)),
+            //    size: createVector(Rseed.random_between(300, 425), Rseed.random_between(275, 425)),
+            size: createVector(Rseed.random_between(WIDTH/3, WIDTH/2), Rseed.random_between(WIDTH/3, WIDTH/2)),
+            //    antennaSize: createVector(Rseed.random_between(5 * 4.5, 20 * 4.5), Rseed.random_between(5 * 4.5, 30 * 4.5)),
+            antennaSize: createVector(Rseed.random_between(WIDTH/30, WIDTH/(7.5)), Rseed.random_between(WIDTH/30, WIDTH/5)),
+            //    earSize: createVector(Rseed.random_between(10, 30), Rseed.random_between(20, 40)),
+            earSize: createVector(Rseed.random_between(WIDTH/90, WIDTH/30), Rseed.random_between(WIDTH/45, WIDTH/25)),
             colors: [
                 Rseed.random_choice(colors),
                 Rseed.random_choice(colors1),
@@ -91,12 +96,17 @@ class Robot {
                 Rseed.random_choice(glassColors),
             ],
             eyeSizes: createVector(
-                Rseed.random_between(10 * 4.5, 20 * 4.5),
-                Rseed.random_between(10 * 4.5, 20 * 4.5)),
+                //    Rseed.random_between(45, 90),
+                Rseed.random_between(WIDTH/15, WIDTH/7.5),
+                //    Rseed.random_between(45, 90)),
+                Rseed.random_between(WIDTH/15, WIDTH/7.5)),
             ang: Rseed.random_between(-0.1, 0.1),
-            corner: Rseed.random_choice([0, 0, 5, 20, 50]),
-            strokeWeight: Rseed.random_between(4 * 4, 8 * 4),
-            glassStrokeWeight: Rseed.random_between(15, 25),
+            //corner: Rseed.random_choice([0, 0, 5, 20, 50]),
+            corner: Rseed.random_choice([0, 0, WIDTH/180, WIDTH/45, WIDTH/18]),
+            //strokeWeight: Rseed.random_between(4 * 4, 8 * 4),
+            strokeWeight: Rseed.random_between(WIDTH/45, WIDTH/22.5),
+            //glassStrokeWeight: Rseed.random_between(15, 25),
+            glassStrokeWeight: Rseed.random_between(WIDTH/45, WIDTH/30),
         };
 
         Object.assign(def, args);
@@ -110,9 +120,9 @@ class Robot {
         push();
 
         translate(this.p.x, this.p.y);
-        if(HEIGHT < 600){
+        /*if(HEIGHT < 600){
             scale(0.5)
-        }
+        }*/
         rotate(this.ang + sin(mouseX / 200 + frameCount / 50 + this.p.x + this.p.y) / 4);
 
         rectMode(CENTER);
@@ -126,13 +136,12 @@ class Robot {
         push();
 
         fill(this.colors[5]);
-
-        circle(-this.size.x / 2 - 5 * 4.5, 0, this.earSize.x * 3, this.eyeSizes.y * 3);
-
+        //circle(-this.size.x / 2 - 5 * 4.5, 0, this.earSize.x * 3, this.eyeSizes.y * 3);
+        circle(-this.size.x / 2 - this.p.x / 15, 0, this.earSize.x * 3, this.eyeSizes.y * 3);
 
         fill(this.colors[5]);
-
-        circle(this.size.x / 2 + 5 * 4.5, 0, this.earSize.x * 3, this.eyeSizes.x * 3);
+        //circle(this.size.x / 2 + 5 * 4.5, 0, this.earSize.x * 3, this.eyeSizes.x * 3);
+        circle(this.size.x / 2 + this.p.x / 15, 0, this.earSize.x * 3, this.eyeSizes.x * 3);
         pop();
 
 
@@ -143,11 +152,13 @@ class Robot {
         stroke(this.colors[1]);
         strokeWeight(this.strokeWeight);
         fill(0);
-        circle(-18 * 4.5, 0, this.eyeSizes.x - sin(frameCount / 50 + mouseY / 20) * 2 * 4.5);
+        // circle(-18 * 4.5, 0, this.eyeSizes.x - sin(frameCount / 50 + mouseY / 20) * 2 * 4.5);
+        circle(-WIDTH/10.9, 0, this.eyeSizes.x - sin(frameCount / 50 + mouseY / 20) * this.p.x / 50);
 
         stroke(this.colors[2]);
         strokeWeight(this.strokeWeight / 2);
-        circle(18 * 4.5, 0, this.eyeSizes.x + sin(frameCount / 50 + mouseY / 20) * 2 * 4.5);
+        // circle(18 * 4.5, 0, this.eyeSizes.x + sin(frameCount / 50 + mouseY / 20) * 2 * 4.5);
+        circle(WIDTH/10.9, 0, this.eyeSizes.x + sin(frameCount / 50 + mouseY / 20) * this.p.x / 50);
         noStroke();
         fill(this.colors[3]);
 
@@ -155,14 +166,16 @@ class Robot {
         push();
         fill(this.colors[4]);
         rotate(sin(frameCount / 30) / 6);
-        rect(18 * 4.5, -18 * 4.5 + sin(frameCount / 50 + this.p.y - mouseX / 25) * 5, this.eyeSizes.x * 1.5, 30);
+        //rect(18 * 4.5, -18 * 4.5 + sin(frameCount / 50 + this.p.y - mouseX / 25) * 5, this.eyeSizes.x * 1.5, 30);
+        rect(WIDTH/10.9, -WIDTH/10.9 + sin(frameCount / 50 + this.p.y - mouseX / 25) * 5, this.eyeSizes.x * 1.3, this.p.x/15);
         pop();
 
 
         push();
         fill(this.colors[6]);
         rotate(sin(frameCount / 20 + 1) / 5);
-        rect(-18 * 4.5, -18 * 4.5 + sin(frameCount / 20 + mouseY / 25 + this.p.y) * 5, this.eyeSizes.x, 30);
+        // rect(-18 * 4.5, -18 * 4.5 + sin(frameCount / 20 + mouseY / 25 + this.p.y) * 5, this.eyeSizes.x, 30);
+        rect(-WIDTH/10.9, -WIDTH/10.9 + sin(frameCount / 20 + mouseY / 25 + this.p.y) * 5, this.eyeSizes.x, this.p.x/15);
         pop();
 
 
@@ -172,7 +185,8 @@ class Robot {
 
         fill(this.colors[5]);
 
-        circle(0, this.size.y / 10 + sin(frameCount / 20) * 5, 20, 20);
+        //circle(0, this.size.y / 10 + sin(frameCount / 20) * 5, 20, 20);
+        circle(0, this.size.y / 10 + sin(frameCount / 20) * 5, WIDTH/45, WIDTH/45);
 
 
         push();
@@ -182,23 +196,27 @@ class Robot {
                     case 0:
                         rotate(sin(frameCount / 10 + mouseX / 50 + mouseY / 50) / 5);
                         fill(this.colors[6]);
-                        rect(0, this.size.y / 3, this.size.x / 2, 5 * 4.5, 30);
+                        //rect(0, this.size.y / 3, this.size.x / 2, 5 * 4.5, 30);
+                        rect(0, this.size.y / 3, this.size.x / 2, this.p.x/15, this.p.x/15);
                         break;
                     case 1:
                         rotate(sin(frameCount / 10 + mouseX / 50 + mouseY / 50) / 5);
                         noStroke();
                         fill(this.colors[7]);
-                        arc(0, this.size.y / 4, 160, 120, 0, PI, CHORD);
+                        //arc(0, this.size.y / 4, 160, 120, 0, PI, CHORD);
+                        arc(0, this.size.y / 4, WIDTH/5.5, this.p.x/4, 0, PI, CHORD);
                         break;
                     case 2:
                         noStroke();
                         fill(this.colors[8]);
-                        arc(0, this.size.y / 3, 120 - sin(frameCount / 50) * 30, 80, 0, TWO_PI, CHORD);
+                        // arc(0, this.size.y / 3, 120 - sin(frameCount / 50) * 30, 80, 0, TWO_PI, CHORD);
+                        arc(0, this.size.y / 3, this.p.x/4 - sin(frameCount / 50) * this.p.x/15, WIDTH/11, 0, TWO_PI, CHORD);
                         break;
                     case 3:
                         stroke(this.colors[2]);
                         noFill();
-                        arc(0, this.size.y / 2.5, 120, 70 - sin(frameCount / 50) * 10, PI, TWO_PI);
+                        // arc(0, this.size.y / 2.5, 120, 70 - sin(frameCount / 50) * 10, PI, TWO_PI);
+                        arc(0, this.size.y / 2.5, this.p.x/4, WIDTH/11.5 - sin(frameCount / 50) * this.p.x/45, PI, TWO_PI);
                         //  arc(0, this.size.y/4, 120-sin(frameCount/50)*30, 80, 0, PI, TWO_PI);
                         break;
                 }
@@ -206,16 +224,17 @@ class Robot {
             case 1:
                 stroke(this.colors[2]);
                 noFill();
-                arc(0, this.size.y / 4, 120 - sin(frameCount / 50) * 30, 80, 0, PI, TWO_PI);
+                // arc(0, this.size.y / 4, 120 - sin(frameCount / 50) * 30, 80, 0, PI, TWO_PI);
+                arc(0, this.size.y / 4, this.p.x/4 - sin(frameCount / 50) * this.p.x/15, WIDTH/11, 0, PI, TWO_PI);
                 break;
             case 2:
                 rotate(sin(frameCount / 10 + mouseX / 50 + mouseY / 50) / 5);
                 fill(this.colors[6]);
-                rect(0, this.size.y / 3, this.size.x / 4, 5 * 4.5, 30);
+                // rect(0, this.size.y / 3, this.size.x / 4, 5 * 4.5, 30);
+                rect(0, this.size.y / 3, this.size.x / 4, this.p.x / 15, this.p.x/15);
                 break;
             case 3:
-                scale(0.4);
-                image(this.botLips, -150, 200);
+                image(this.botLips, -WIDTH/12, WIDTH/10.2, WIDTH/6, WIDTH/16.5);
                 break;
         }
         pop();
@@ -230,21 +249,26 @@ class Robot {
                         stroke(this.colors[9]);
                         strokeWeight(this.glassStrokeWeight);
                         fill(123, 44, 191, 100);
-                        rect(-81, 0, this.glassSize.x, this.glassSize.y, this.corner);
-                        rect(81, 0, this.glassSize.x, this.glassSize.y, this.corner);
+                        //rect(-81, 0, this.glassSize.x, this.glassSize.y, this.corner);
+                        rect(-WIDTH/10.9, 0, this.glassSize.x, this.glassSize.y, this.corner);
+                        rect(WIDTH/10.9, 0, this.glassSize.x, this.glassSize.y, this.corner);
                         fill(this.colors[9]);
                         noStroke();
-                        rect(0, 0, 60, 15, this.corner);
+                        //rect(0, 0, 60, 15, this.corner);
+                        rect(0, 0, this.p.x/7.5, this.p.x/30, this.corner);
                         break;
                     case 1:
                         rotate(-sin(frameCount / 10 + mouseX / 50 + mouseY / 50) / 10);
                         stroke(this.colors[9]);
                         fill(123, 44, 191, 100);
-                        circle(-81, 0, 100);
-                        circle(81, 0, 100);
+                        //circle(-81, 0, 100);
+                        circle(-WIDTH/10.9, 0, WIDTH/9);
+                        //circle(81, 0, 100);
+                        circle(WIDTH/10.9, 0, WIDTH/9);
                         fill(this.colors[9]);
                         noStroke();
-                        rect(0, 0, 60, 15, this.corner);
+                        //rect(0, 0, 60, 15, this.corner);
+                        rect(0, 0, this.p.x/7.5, this.p.x/30, this.corner);
                         break;
                 }
                 break
@@ -255,15 +279,22 @@ class Robot {
                 stroke(this.colors[9]);
                 strokeWeight(this.glassStrokeWeight);
                 fill(123, 44, 191, 100);
-                rect(-81, 0, this.glassSizeCrazy.x, this.glassSizeCrazy.y, this.corner);
-                rect(81, 0, this.glassSizeCrazy.x, this.glassSizeCrazy.y, this.corner);
+                //rect(-81, 0, this.glassSizeCrazy.x, this.glassSizeCrazy.y, this.corner);
+                rect(-WIDTH/10.9, 0, this.glassSizeCrazy.x, this.glassSizeCrazy.y, this.corner);
+                //rect(81, 0, this.glassSizeCrazy.x, this.glassSizeCrazy.y, this.corner);
+                rect(WIDTH/10.9, 0, this.glassSizeCrazy.x, this.glassSizeCrazy.y, this.corner);
                 fill(this.colors[9]);
                 noStroke();
-                rect(0, 0, 60, 15, this.corner);
+                //rect(0, 0, 60, 15, this.corner);
+                rect(0, 0, this.p.x/7.5, this.p.x/30, this.corner);
                 break;
             case 3:
                 rotate(-sin(frameCount / 10 + mouseX / 50 + mouseY / 50) / 10);
-                image(this.botGlasses, -150, -40);
+                if(this.glassSVG === 17) {
+                    image(this.botGlasses, -WIDTH/6, -WIDTH/24, WIDTH/3, WIDTH/8);
+                } else {
+                    image(this.botGlasses, -WIDTH/6, -WIDTH/24, WIDTH/3, WIDTH/10);
+                }
                 break;
             default:
                 break;

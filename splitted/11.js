@@ -24,13 +24,8 @@ function draw() {
 
 
     push();
-    if (HEIGHT < 600) {
-        scale(0.35)
-    } else {
-        scale(0.55);
-    }
     rotate(sin(frameCount / 50) / 8);
-    image(planet, WIDTH / 3 - mouseX / 15, HEIGHT / 10 - mouseY / 15);
+    image(planet, WIDTH / 8 - mouseX / 15, HEIGHT / 10 - mouseY / 15, WIDTH / 10, WIDTH / 10);
     pop();
 
 
@@ -134,24 +129,11 @@ function boat(x, y) {
 
     push();
     noStroke();
-    if (HEIGHT < 600) {
-        rotate(pendulumAngle / 2);
-        scale(0.6)
-        translate(mouseX / 5 + WIDTH / 3, HEIGHT / 4);
-    } else {
-        rotate(pendulumAngle);
-        translate(mouseX / 3, HEIGHT / 2 - HEIGHT / 4);
-    }
-    fill(247, 247, 249);
-    quad(293, 468, 402, 508, 368, 535, 335, 535);
-    triangle(392, 431, 439, 493, 402, 508);
-    triangle(402, 508, 505, 441, 469, 534);
-    fill(165, 165, 165);
-    triangle(424, 473, 502, 442, 434, 487);
-    triangle(293, 468, 370, 477, 362, 493);
-    fill(199, 200, 202);
-    triangle(392, 431, 402, 508, 362, 493);
-    triangle(402, 508, 467, 534, 369, 534);
+    rotate(pendulumAngle / 2);
+    //scale(0.2);
+    translate(x + mouseX / 5, y);
+
+    image(gemi, WIDTH / 8 - mouseX / 15, HEIGHT / 3 - mouseY / 15, WIDTH / 5, HEIGHT / 10);
     pop();
 }
 
@@ -200,7 +182,11 @@ function getMetadata() {
         ]
     ]
     let planetlist$ = ["Earth", "Mars", "Moon", "Neptune", "Saturn", "Uranus"]
+    let clarities = ["Polished", "Noisy", "Rusty"]
+
+    const noiseLevel = availableNoiseLevels.indexOf(pitircik);
     return {
+        clarity: clarities[noiseLevel],
         mouth: mouths[mouth][mouth === 0 ? mouthVector : mouth === 3 ? mouthSvg : 0],
         glasses: glasses[glassType][glassType === 3 ? glassSVG : glassType === 0 ? glassVector : 0],
         planet: planetlist$[selectedPlanet]
@@ -209,3 +195,4 @@ function getMetadata() {
 
 
 console.log(features)
+
