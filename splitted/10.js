@@ -1,4 +1,5 @@
 
+
 let bg;
 let seedNum;
 let noiseImg;
@@ -17,8 +18,8 @@ var WIDTH = window.innerWidth;
 var HEIGHT = window.innerHeight;
 var DIM = Math.min(WIDTH, HEIGHT);
 var M = DIM / DEFAULT_SIZE;
-let ellipse1$ = Rseed.random_between(HEIGHT / 5 + 30, HEIGHT / 5 + 50)
-let ellipse2$ = Rseed.random_between(HEIGHT / 5 + 60, HEIGHT / 5 + 80)
+let ellipse1$ = HEIGHT / 5 + 30
+let ellipse2$ = HEIGHT / 5 + 60
 let mouth = Rseed.random_int(0, 3)
 let mouthVector = Rseed.random_int(0, 3)
 let mouthSvg = Rseed.random_int(0, 9)
@@ -85,5 +86,7 @@ function setup() {
 
 
 }
+
+
 
 

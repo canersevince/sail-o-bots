@@ -9,8 +9,8 @@ function random_hash() {
     return result;
 }
 
-let tokenData = {"hash": random_hash()}
-// let tokenData = {"hash": "0x11ac128f8b54949c12d04102cfc01960fc496813cbc3495bf77aeed738579738", "tokenId": "57000284"};
+// let tokenData = {"hash": random_hash()}
+let tokenData = {"hash": "0x11ac128f8b54949c12d04102cfc01960fc496813cbc3495bf77aeed738579738", "tokenId": "57000284"};
 let seed = parseInt(tokenData.hash.slice(0, 16), 16);
 let Rseed = new Random(seed);
 
@@ -76,8 +76,8 @@ var WIDTH = window.innerWidth;
 var HEIGHT = window.innerHeight;
 var DIM = Math.min(WIDTH, HEIGHT);
 var M = DIM / DEFAULT_SIZE;
-let ellipse1$ = Rseed.random_between(HEIGHT / 5 + 30, HEIGHT / 5 + 50)
-let ellipse2$ = Rseed.random_between(HEIGHT / 5 + 60, HEIGHT / 5 + 80)
+let ellipse1$ = HEIGHT / 5 + 30
+let ellipse2$ = HEIGHT / 5 + 60
 let mouth = Rseed.random_int(0, 3)
 let mouthVector = Rseed.random_int(0, 3)
 let mouthSvg = Rseed.random_int(0, 9)
@@ -99,8 +99,8 @@ function setup() {
 
 
     for (let i = 0; i < WIDTH * HEIGHT * 0.3; i++) {
-        let x = Rseed.random_between(0, WIDTH);
-        let y = Rseed.random_between(0, HEIGHT);
+        let x = WIDTH/2;
+        let y = HEIGHT/2;
         let d = noise(0.01 * x, 0.01 * y) * 0.5 + 1;
         noiseImg.ellipse(x, y, d / 1.75, d / 1.75);
     }
@@ -112,8 +112,8 @@ function setup() {
     bg = createGraphics(WIDTH, HEIGHT);
     bg.noStroke();
     for (let i = 0; i < 300000; i++) {
-        let x = Rseed.random_between(0, WIDTH);
-        let y = Rseed.random_between(0, HEIGHT);
+        let x = WIDTH/2;
+        let y = HEIGHT/2;
         let s = noise(x * 0.01, y * 0.01) * 2;
         bg.fill(255, 30);
         bg.rect(x, y, s, s);
@@ -123,7 +123,7 @@ function setup() {
     overAllTexture.loadPixels();
     for (var i = 0; i < WIDTH + 50; i++) {
         for (var o = 0; o < HEIGHT + 50; o++) {
-            overAllTexture.set(i, o, color(100, noise(i / 3, o / 3, i * o / 50) * Rseed.random_choice([0, 50, 100])));
+            overAllTexture.set(i, o, color(100, noise(i / 3, o / 3, i * o / 50) * Math.max(150, o/3)));
         }
     }
     overAllTexture.updatePixels();
